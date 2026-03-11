@@ -62,18 +62,21 @@ Who is the Knight and who is the Knave?
 ---
 
 ## 📂 Project Structure
+
+```text
 detective-game/
 │
-├── main.cpp # Program entry point
+├── main.cpp
+│   └── Program entry point
 │
 ├── game.cpp / game.h
-│ └── Controls game flow, puzzle solving, and accusation logic
+│   └── Controls game flow, puzzle solving, and accusation logic
 │
 ├── case.cpp / case.h
-│ └── Stores the murder case, suspects, and logic puzzles
+│   └── Stores the murder case, suspects, and logic puzzles
 │
 ├── notebook.cpp / notebook.h
-│ └── Tracks discovered identities and testimonies
+│   └── Tracks discovered identities and testimonies
 │
 └── Makefile
-└── Builds the project using g++
+    └── Builds the project using g++
